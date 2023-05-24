@@ -1,8 +1,8 @@
 {
-  "name": "sundown",
-  "displayName": "Sundown Theme",
-  "description": "A Minimalist yet nice looking theme for coding",
-  "version": "0.0.14",
+  "name": "vscode-outro",
+  "displayName": "Outro Theme",
+  "description": "The last minimalist theme you'll need",
+  "version": "0.0.1",
   "publisher": "willyelm",
   "license": "MIT",
   "author": "Williams Medina <williams.medinaa@gmail.com>",
@@ -10,39 +10,26 @@
     "vscode": "^1.47.0"
   },
   "repository": {
-    "url": "https://github.com/willyelm/vscode-sundown.git",
+    "url": "https://github.com/willyelm/vscode-outro.git",
     "type": "git"
   },
   "categories": [
     "Themes",
     "Other"
   ],
-  "icon": "sundown-icon.png",
+  "icon": "outro-icon.png",
   "contributes": {
     "themes": [
       {
-        "label": "Dark (Sundown)",
+        "label": "Dark (Outro)",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-color-theme.json"
-      }, {
-        "label": "Minimal Dark (Sundown)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/minimal-dark-color-theme.json"
-      }, {
-        "label": "Metal (Sundown)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/metal-color-theme.json"
       }
     ],
     "iconThemes": [
       {
-        "id": "sundown-color",
-        "label": "Color (Sundown)",
-        "path": "./fileicons/color-icon-theme.json"
-      },
-      {
-        "id": "sundown-dark",
-        "label": "Dark (Sundown)",
+        "id": "outro-dark",
+        "label": "Dark (Outro)",
         "path": "./fileicons/dark-icon-theme.json"
       }
     ]

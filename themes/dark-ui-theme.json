@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "Sundown Dark UI",
+	"name": "Outro Dark UI",
 	"colors": {
 		
 		"titleBar.activeBackground": "#1a1c22",
